@@ -1,0 +1,26 @@
+.container {
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.question {
+    padding-bottom: 20px;
+}
+
+.questionItemPair {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--cards);
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

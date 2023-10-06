@@ -1,0 +1,75 @@
+:root {
+    --navbar: rgba(255, 255, 255, 0.2);
+}
+
+.navigationBar {
+    width: 85%;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    background-color: var(--navbar);
+    border-radius: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: large;
+    font-weight: bold;
+    color: var(--navbar-text);
+}
+
+.linkLists {
+    list-style: none;
+    display: flex;
+    color: var(--navbar-text);
+}
+
+/* li:nth-child(2) {
+    margin: 0px 20px;
+} */
+
+.link:nth-child(2) {
+    margin: 0px 20px;
+}
+
+/* li:nth-child(3) {
+    background: var(--cards);
+    color: var(--main);
+} */
+
+.link:nth-child(3) {
+    background: var(--cards);
+    color: var(--main);
+}
+
+/* li {
+    padding: 10px 20px;
+    border: 2px solid var(--cards);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+.link {
+    padding: 10px 20px;
+    border: 2px solid var(--cards);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.signupLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
