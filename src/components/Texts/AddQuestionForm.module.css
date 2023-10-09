@@ -14,6 +14,7 @@
 
 .form {
     display: flex;
+    justify-content: center;
     border: 5px solid var(--darker-main);
     padding: 20px;
     border-radius: 20px;
@@ -27,11 +28,11 @@
     background: transparent;
 }
 
-h2 {
+.questionSectionTitle, .answerSectionTitle {
     padding-bottom: 20px;
 }
 
-addQuestionlabel {
+.addQuestionlabel {
     font-weight: 600;
 }
 
@@ -79,4 +80,13 @@ textarea {
 
 #a, #b, #c, #d {
     width: 100%;
+}
+
+.pageName {
+    border: 3px solid var(--darker-main);
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: default;
+    font-size: medium;
+    text-align: center;
 }

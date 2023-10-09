@@ -1,0 +1,13 @@
+.modalContainer {
+    width: 30rem;
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}

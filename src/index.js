@@ -4,11 +4,14 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
+import { OnlineStatusProvider } from './store/OnlineStatus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <OnlineStatusProvider>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </OnlineStatusProvider>
 );
 

@@ -2,9 +2,12 @@ import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import classes from "./MainNavigation.module.css"
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faPlugCircleExclamation, faWifi } from "@fortawesome/free-solid-svg-icons";
+import { useOnlineStatus } from "../../store/OnlineStatus";
 
 function MainNavigation() {
+    const isOnline = useOnlineStatus();
+
     return (
         <nav className={classes.navigationBar}>
             <div className={classes.logo}>
@@ -22,9 +25,9 @@ function MainNavigation() {
                             Add Questions
                         </li>
                     </Link>
-                    <Link to="/signup" className={`${classes.link} ${classes.signupLink}`}>
+                    <Link className={`${classes.link} ${classes.signalLink}`}>
                         <li>
-                            <FontAwesomeIcon icon={faHeart} />
+                            {!isOnline ? <div><FontAwesomeIcon icon={faPlugCircleExclamation} /> Offline</div> : <div><FontAwesomeIcon icon={faWifi} /> Online</div>}
                         </li>
                     </Link>
                 </ul>

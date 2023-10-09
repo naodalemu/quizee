@@ -1,0 +1,59 @@
+.sureContainer {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    padding: 0px 60px;
+}
+
+.textContainer {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+.congrats {
+    color: teal;
+}
+
+.notToGood {
+    color: crimson;
+}
+
+.youGot {
+    font-size: large;
+}
+
+.score {
+    font-size: 50px;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.goHome {
+    margin: 10px;
+    padding: 10px 20px;
+    background: var(--main);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.goHome:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.goHome:active {
+    scale: 0.99;
+}

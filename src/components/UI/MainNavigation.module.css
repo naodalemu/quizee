@@ -42,11 +42,6 @@
     color: var(--main);
 } */
 
-.link:nth-child(3) {
-    background: var(--cards);
-    color: var(--main);
-}
-
 /* li {
     padding: 10px 20px;
     border: 2px solid var(--cards);
@@ -68,8 +63,9 @@ a {
     color: unset;
 }
 
-.signupLink {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.signalLink {
+    text-align: center;
+    width: 120px;
+    background: var(--cards);
+    color: var(--main);
 }

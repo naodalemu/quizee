@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 
 import AddQuestion from "./pages/AddQuestion";
 import HomePage from "./pages/HomePage";
-import Favorites from "./pages/Favorites";
 
 import "./index.css"
 import Questions from "./pages/Question";
@@ -13,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/addquestion" element={<AddQuestion />} />
-        <Route path="/signup" element={<Favorites />} />
         <Route path="/questions" element={<Questions />} />
       </Routes>
     </div>

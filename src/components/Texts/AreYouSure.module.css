@@ -1,0 +1,47 @@
+.sureContainer {
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+.textContainer {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 10px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.close, .cancel {
+    margin: 10px;
+    padding: 10px 20px;
+    background: var(--main);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cancel:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cancel:active {
+    scale: 0.99;
+}
+
+.close:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.close:active {
+    scale: 0.99;
+}

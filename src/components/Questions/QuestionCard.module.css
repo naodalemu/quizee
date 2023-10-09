@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .controls {
@@ -67,4 +68,17 @@
     color: white !important;
     width: 150px;
     padding: 10px 0px !important;
+}
+
+.controlerButton {
+    width: 90px;
+}
+
+.invisible {
+    display: none;
+}
+
+.tick {
+    color: green; 
+    display: inline;
 }
