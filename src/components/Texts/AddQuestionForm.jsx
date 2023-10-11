@@ -80,7 +80,7 @@ function AddQuestionForm(props) {
                         onChange={(event) => handleInputChange("question", event.target.value)}
                         required
                         id="questionInput"
-                        rows="13"
+                        rows="12"
                         ref={questionRef}
                         value={formData.question}>
                     </textarea>
@@ -147,7 +147,7 @@ function AddQuestionForm(props) {
                             ref={rightAnswerRef}
                             value={formData.answer} />
                     </div>
-                    <button className="action" disabled={isOnline ? false : true}>Submit</button>
+                    <button className={`action`} disabled={isOnline ? false : true}>Submit</button>
                 </div>
                 {props.serverConfirm ? <Modal><DeliveredQuestion onOkay={resetHandler} /></Modal> : null}
                 {isConfirmed === false ? <Modal><ConfirmQuestion onOkay={() => { setIsConfirmed(true) }} /></Modal> : null}
