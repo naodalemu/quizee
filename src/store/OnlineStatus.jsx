@@ -7,7 +7,7 @@ export function useOnlineStatus() {
 }
 
 export function OnlineStatusProvider(props) {
-    const [isOnline, setIsOnline] = useState(true);
+    const [isOnline, setIsOnline] = useState(false);
 
     useEffect(() => {
         function handleOnline() {

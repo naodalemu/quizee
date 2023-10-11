@@ -1,0 +1,55 @@
+.sureContainer {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    padding: 10px 50px;
+    background: #cbccd0;
+    border-radius: 10px;
+}
+
+.textContainer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 20px;
+    color: var(--main);
+}
+
+.description {
+    font-weight: bold;
+}
+
+.instructionList {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.okay {
+    /* margin: 10px; */
+    padding: 10px 20px;
+    background: var(--main);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.okay:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.okay:active {
+    scale: 0.99;
+}
+
+.greenTick {
+    color: green;
+}
