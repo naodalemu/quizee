@@ -12,7 +12,7 @@ function Welcome() {
     const isOnline = useOnlineStatus();
     const navigate = useNavigate();
     const [visibility, setVisibility] = useState(false);
-    const [ modalIsOpen, setModalIsOpen ] = useState(true);
+    const [ modalIsOpen, setModalIsOpen ] = useState(false);
 
     function errorHandler() {
         if (isOnline) {
